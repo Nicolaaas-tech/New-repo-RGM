@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 ruby '2.6.6'
 
+gem 'bootstrap', '~> 4.5', '>= 4.5.3'
 gem 'bootsnap', require: false
 # gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
-gem "puma", ">= 4.3.3"
+gem 'puma', '~> 5.1'
 gem 'rails'
 gem 'redis'
 gem 'faker'
